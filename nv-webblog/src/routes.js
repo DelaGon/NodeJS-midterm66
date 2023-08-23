@@ -12,7 +12,7 @@ module.exports = (app) => {
     
     app.get('/users', UserController.index)
 
-    app.post('/func1', Midterm.func1)
+    app.post('/func1', Mid66.func1)
 
     app.post('/func2', Midterm.func2)
 
