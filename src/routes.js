@@ -12,8 +12,6 @@ module.exports = (app) => {
     
     app.get('/users', UserController.index)
 
-    app.post('/add', Midterm.add)
-
     app.post('/func1', Midterm.func1)
 
     app.post('/func2', Midterm.func2)
